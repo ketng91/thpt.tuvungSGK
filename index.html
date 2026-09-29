@@ -1067,16 +1067,10 @@ css
 <div class="top-bar">
 
   <select id="wordList">
-    <option value="1">Từ vựng SGK -1</option>
-    <option value="2">Từ vựng SGK -2</option>
-    <option value="2">Từ vựng SGK -2</option>
-    <option value="2">Từ vựng SGK -2</option>
-    <option value="2">Từ vựng SGK -2</option>
-    <option value="2">Từ vựng SGK -2</option>
-    <option value="2">Từ vựng SGK -2</option>
-    <option value="2">Từ vựng SGK -2</option>
-    <option value="2">Từ vựng SGK -2</option>
-    <option value="2">Từ vựng SGK -2</option>
+    <option value="1A">Từ vựng SGK -1A</option>
+    <option value="1B">Từ vựng SGK -1B</option>
+    <option value="2A">Từ vựng SGK -2A</option>
+    <option value="2B">Từ vựng SGK -2B</option>
 
   </select>
 
@@ -1288,7 +1282,7 @@ selectEl.addEventListener("touchstart", sortOptionsByNumber);
 <script>
 /********** DATA **********/
 const data = {
-  1: [
+  "1A": [
 { en: "Surgeon (n) /ˈsɜːrdʒən/", vn: "bác sĩ phẫu thuật", tick: false },
 { en: "Surgery (n) /ˈsɜːrdʒəri/", vn: "sự mổ, ca phẫu thuật, phòng phẫu thuật", tick: false },
 { en: "Resistance war (np) /rɪˈzɪstəns wɔːr/", vn: "cuộc kháng chiến", tick: false },
@@ -1375,6 +1369,9 @@ const data = {
 { en: "Do one's duty (phr)", vn: "thực hiện nghĩa vụ, bổn phận", tick: false },
 { en: "Save sb/sth from sb/sth/doing sth (phr)", vn: "cứu ai/cái gì khỏi ai/cái gì/làm điều gì", tick: false },
 { en: "Be translated into sth (phr)", vn: "được dịch sang thứ tiếng gì", tick: false },
+   ],
+
+  "1B": [
 { en: "Devote one's life to sth/doing sth (phr)", vn: "cống hiến cả cuộc đời cho việc gì/làm việc gì", tick: false },
 { en: "Save one's life (phr)", vn: "cứu mạng ai", tick: false },
 { en: "Finish doing sth (phr)", vn: "hoàn thành việc gì đó", tick: false },
@@ -1434,9 +1431,12 @@ const data = {
 { en: "pave the way for sth (phr)", vn: "mở đường, tạo tiền đề cho cái gì", tick: false },
 { en: "overcome formidable challenges (phr)", vn: "vượt qua những thử thách ghê gớm/to lớn", tick: false },
 { en: "gain recognition (phr)", vn: "được công nhận, giành được sự thừa nhận", tick: false },
+
+
    ],
 
-  2: [
+
+  "2A": [
 { en: "Culture (n) /ˈkʌltʃər/", vn: "văn hóa", tick: false },
 { en: "Cultural (adj) /ˈkʌltʃərəl/", vn: "thuộc văn hóa", tick: false },
 { en: "Diverse (adj) /daɪˈvɜːrs/", vn: "đa dạng", tick: false },
@@ -1483,7 +1483,7 @@ const data = {
 { en: "Confusion (n) /kənˈfjuːʒn/", vn: "lú lẫn, sự nhầm lẫn, sự bối rối", tick: false },
 { en: "Language barrier (np) /ˈlæŋɡwɪdʒ ˈbæriər/", vn: "rào cản ngôn ngữ", tick: false },
 { en: "Unfamiliar (adj) /ˌʌnfəˈmɪliər/", vn: "không quen thuộc, lạ lẫm (~ with sth)", tick: false },
-{ en: "Insulting (adj) /ɪnˈsʌltɪŋ/", vn: "mang tính xúc phạm, lăng mạ", tick: false },; 
+{ en: "Insulting (adj) /ɪnˈsʌltɪŋ/", vn: "mang tính xúc phạm, lăng mạ", tick: false },
 { en: "anxiety (n) /æŋˈzaɪəti/", vn: "sự lo âu, lo lắng, sự bồn chồn", tick: false },
 { en: "celebrate (v) /ˈselɪbreɪt/", vn: "tổ chức, mừng, kỷ niệm", tick: false },
 { en: "costume (n) /ˈkɑːstuːm/", vn: "trang phục", tick: false },
@@ -1494,6 +1494,8 @@ const data = {
 { en: "In many respects (phr)", vn: "xét trên nhiều phương diện", tick: false },
 { en: "Gain popularity (phr)", vn: "trở nên nổi tiếng, ngày càng phổ biến", tick: false },
 { en: "Thanks to sth (phr)", vn: "nhờ có điều gì", tick: false },
+  ],
+  "2B": [
 { en: "captivate (v) /ˈkæptɪveɪt/", vn: "thu hút, cuốn hút", tick: false },
 { en: "Be captivated by sth (phr)", vn: "bị quyến rũ, thu hút bởi cái gì", tick: false },
 { en: "Around the globe (phr)", vn: "trên toàn cầu, khắp thế giới", tick: false },
@@ -1538,8 +1540,6 @@ const data = {
 { en: "be deeply ingrained in (phr)", vn: "được khắc sâu/ăn sâu vào (tâm trí, văn hóa)", tick: false },
 { en: "live in harmony with (phr)", vn: "sống hòa hợp với", tick: false },
 { en: "adapt to a new environment (phr)", vn: "thích nghi với môi trường mới", tick: false },
-  ],
-  3: [
 
 
   ],
